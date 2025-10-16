@@ -19,7 +19,7 @@ Pick your favorite way to create your Deepwoken shortcut:
 
 Just run `PowershellAutomater.bat`  
 > 💡 **That's it!** A Deepwoken shortcut will instantly pop up in your folder.
-
+Demo Video: https://www.youtube.com/watch?v=Iiywsoku-tA
 ---
 
 ### 2️⃣ **Semi-Automatic: PowerShell Script**
