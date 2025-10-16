@@ -1,58 +1,69 @@
-# DeepwokenLauncher
+# DeepwokenLauncher 🚀
 
-A simple launcher for Roblox Deepwoken, provided as a batch file for easy access and customization.
-
----
-
-## What Does This Batch File Do?
-
-THE DEEPWOKEN LAUNCHER IS REAL. The included batch file launches Deepwoken directly, allowing you to start the game with a single click from your desktop. 
+A simple and flexible launcher for **Deepwoken**, now with *multiple shortcut creation methods* for easy access and customization!
 
 ---
 
-## Setup Guide
+## ✨ What Does This Batch File Do?
 
-Follow these steps to set up your Deepwoken Launcher:
-
-### 1. Download the Repository
-
-- Download or clone the `DeepwokenLauncher` repository from GitHub.
-
-### 2. Create a Shortcut
-
-- Locate the batch file (`.bat`) included in the folder.
-- **Right-click** on the batch file.
-- Select **Create Shortcut**.
-
-### 3. Customize the Shortcut
-
-- **Right-click** the new shortcut and select **Properties**.
-- In the Properties window:
-  - Rename the shortcut to `Deepwoken` or `Deepwoken Launcher` for clarity.
-  - Click **Change Icon**.
-  - Browse and select the `.ico` file included in the `DeepwokenLauncher` folder to set a custom image.
-
-### 4. Place the Shortcut
-
-- Move the shortcut to your desktop or any location you prefer for quick access.
+**THE DEEPWOKEN LAUNCHER IS REAL.**  
+Launch Deepwoken directly with a single click from your desktop. Choose *how* you want your shortcut set up—whether you love automation or prefer hands-on control!
 
 ---
 
-## Example
+## 🛠️ Shortcut Creation Methods
 
-```text
-DeepwokenLauncher/
-├── DeepwokenLauncher.bat
-├── DeepwokenLauncher.ico
-├── README.md
-```
+Pick your favorite way to create your Deepwoken shortcut:
 
----
+### 1️⃣ **Super Easy: Powershell Automater**
 
-## Need Help?
-
-If you have any issues or questions, feel free to open an issue on this repository!
+Just run `PowershellAutomater.bat`  
+> 💡 **That's it!** A Deepwoken shortcut will instantly pop up in your folder.
 
 ---
 
-Enjoy easy launching for Roblox Deepwoken!
+### 2️⃣ **Semi-Automatic: PowerShell Script**
+
+1. Open PowerShell.
+2. **Navigate to your DeepwokenLauncher folder:**  
+   - Locate your downloaded folder, right-click it, and "Copy as path".
+   - In PowerShell, type:  
+     `cd ` *(paste your folder path here)*
+
+3. **Allow script execution for this session:**  
+   ```powershell
+   Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+   ```
+   > ⚠️ *Worried about this command?*  
+   > It only lets PowerShell run scripts for this session—nothing permanent!
+
+4. **Run the shortcut maker script:**  
+   ```powershell
+   .\DeepwokenShortcutMaker.ps1
+   ```
+   > 🪄 Your Deepwoken shortcut will appear!
+
+---
+
+### 3️⃣ **Manual Method (Classic Setup Guide)**
+
+> 🛡️ *No running random scripts—just pure manual steps for the cautious!*
+
+1. **Download** or clone the `DeepwokenLauncher` repository.
+2. Locate the `DeepwokenLauncherScript.bat` in the folder.
+3. **Right-click** the batch file and select **Create Shortcut**.
+4. **Customize** the shortcut:
+   - Rename it to `Deepwoken` or `Deepwoken Launcher`.
+   - Set the icon to `DeepwokenLauncher.ico` for style.
+5. **Place** the shortcut wherever you want (e.g., desktop).
+
+---
+
+## 💬 Need Help?
+
+Questions? Issues?  
+👉 [Open an issue](https://github.com/xaizko/DeepwokenLauncher/issues) on this repository!
+
+---
+
+Enjoy one-click launching for **Deepwoken**! 🎮✨
