@@ -49,6 +49,7 @@ Demo Video: https://www.youtube.com/watch?v=jNzS114_38M
 ### 3️⃣ **Manual Method (Classic Setup Guide)**
 
 > 🛡️ *No running random scripts—just pure manual steps for the cautious!*
+Video Demo: https://youtu.be/uzs8GilQ4u8
 
 1. **Download** or clone the `DeepwokenLauncher` repository.
 2. Locate the `DeepwokenLauncherScript.bat` in the folder.
