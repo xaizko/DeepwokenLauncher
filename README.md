@@ -23,6 +23,7 @@ Demo Video: https://www.youtube.com/watch?v=Iiywsoku-tA
 ---
 
 ### 2️⃣ **Semi-Automatic: PowerShell Script**
+Demo Video: https://www.youtube.com/watch?v=jNzS114_38M
 
 1. Open PowerShell.
 2. **Navigate to your DeepwokenLauncher folder:**  
